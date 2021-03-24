@@ -11,7 +11,7 @@ import (
 
 type Calc struct{}
 
-func (Calc) operate(entrada string, operador string) int {
+func (Calc) Operate(entrada string, operador string) int {
 
 	entradaLimpia := strings.Split(entrada, operador)
 	operador1 := parsear(entradaLimpia[0])
